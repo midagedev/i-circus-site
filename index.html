@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>i-circus — Itano Circus in Three.js</title>
+    <meta
+      name="description"
+      content="A realtime Itano Circus study: swarming missile barrages on smoke-ribbon trails chasing a lone mage across a painted sky — three.js r185 + WebGPU."
+    />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#0d1017" />
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        /* Same value itano-circus paints into scene.background — landing→scene is a
+           continuous cut with no flash. */
+        background: #0d1017;
+      }
+      #app-root {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+      /* Portrait fallback before JS writes visualViewport px (src/ui/orientation.js).
+         100dvh tracks the dynamic viewport; 100vh would include the hidden URL-bar
+         slab and clip. JS overrides these with rounded visualViewport pixels. */
+      #app-root.ic-force-landscape {
+        position: fixed;
+        top: 0;
+        left: 100dvw;
+        width: 100dvh;
+        height: 100dvw;
+        transform: rotate(90deg);
+        transform-origin: top left;
+        overflow: hidden;
+      }
+      /* After rotate(90deg) CW about top-left: CSS left→physical top, right→bottom,
+         top→right, bottom→left. Keep chrome off the notch / home indicator. */
+      #app-root.ic-force-landscape #back-to-scenes {
+        top: max(14px, env(safe-area-inset-right, 0px));
+        left: max(14px, env(safe-area-inset-top, 0px));
+      }
+      #app-root.ic-force-landscape #backend-overlay {
+        left: max(10px, env(safe-area-inset-top, 0px));
+        bottom: max(10px, env(safe-area-inset-left, 0px));
+      }
+      /* Dock is CSS bottom-right inside the rotated box = visual landscape
+         bottom-right. Insets follow the same edge map as #backend-overlay. */
+      #app-root.ic-force-landscape #landing .landing-inner {
+        right: max(16px, env(safe-area-inset-bottom, 0px));
+        bottom: max(16px, env(safe-area-inset-left, 0px));
+      }
+      canvas {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+      #backend-overlay {
+        position: fixed;
+        left: 10px;
+        bottom: 10px;
+        z-index: 10;
+        font: 10.5px/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+        letter-spacing: 0.1em;
+        color: #9a9cb2;
+        background: rgba(9, 12, 18, 0.5);
+        border: 1px solid rgba(195, 188, 221, 0.1);
+        padding: 4px 9px;
+        border-radius: 999px;
+        pointer-events: none;
+        user-select: none;
+        transition: opacity 200ms ease;
+      }
+      /* Landing is a thin corner dock — keep the backend readout visible. */
+    </style>
+    <script type="module" crossorigin src="/i-circus-site/assets/index-DiduqnT8.js"></script>
+    <link rel="modulepreload" crossorigin href="/i-circus-site/assets/three.webgpu-DOOZYHFJ.js">
+    <link rel="modulepreload" crossorigin href="/i-circus-site/assets/missiles-nT6fcXdV.js">
+  </head>
+  <body>
+    <div id="app-root">
+      <div id="backend-overlay">backend: …</div>
+    </div>
+  </body>
+</html>

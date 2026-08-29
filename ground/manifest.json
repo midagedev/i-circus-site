@@ -1,0 +1,196 @@
+{
+  "version": 1,
+  "generated": "2026-08-18",
+  "contract": "GROUND1 packed earth channels (R luma / G chroma / B rough)",
+  "budgetBytes": 4194304,
+  "shippedBytes": 139030,
+  "tiles": {
+    "base": {
+      "webp": "base.webp",
+      "png": "../../art/ground/base.png",
+      "width": 1024,
+      "height": 1024,
+      "scaleM": 512,
+      "flipY": true,
+      "bytes": {
+        "png": 1249108,
+        "webp": 57060
+      },
+      "sha256_16": "bc2c13869f773e37",
+      "seam": {
+        "horiz": 0.003986672794117647,
+        "vert": 0.003125
+      },
+      "quadrantNccMax": 0.4657944121443276,
+      "composite2x2": "/Users/hckim/repo/i-circus-wt-ground/scratch/ground/tile-2x2-base.png",
+      "chroma": 0.24364779839772804
+    },
+    "detail": {
+      "webp": "detail.webp",
+      "png": "../../art/ground/detail.png",
+      "width": 1024,
+      "height": 1024,
+      "scaleM": 138.37837837837836,
+      "flipY": true,
+      "bytes": {
+        "png": 1535708,
+        "webp": 70944
+      },
+      "sha256_16": "0c5a87915914ab7a",
+      "seam": {
+        "horiz": 0.003324142156862745,
+        "vert": 0.003864123774509804
+      },
+      "quadrantNccMax": 0.4096999418007075,
+      "composite2x2": "/Users/hckim/repo/i-circus-wt-ground/scratch/ground/tile-2x2-detail.png",
+      "chroma": 0.22438246787511792
+    }
+  },
+  "ridges": {
+    "webp": "ridges.webp",
+    "png": "../../art/ground/ridges.png",
+    "width": 2048,
+    "height": 512,
+    "grid": {
+      "cols": 4,
+      "rows": 1,
+      "cell": 512
+    },
+    "flipY": true,
+    "bytes": {
+      "png": 146050,
+      "webp": 11026
+    },
+    "sha256_16": "d2de5229e0aaf061",
+    "tiles": [
+      {
+        "id": "ridge1a",
+        "layer": "near",
+        "index": 0,
+        "file": "ridge1a.jpg",
+        "cell": [
+          0,
+          0
+        ],
+        "contentPx": {
+          "x": 8,
+          "y": 186,
+          "w": 496,
+          "h": 139
+        },
+        "uv": {
+          "x": 0.00390625,
+          "y": 0.365234375,
+          "w": 0.2421875,
+          "h": 0.271484375
+        },
+        "aspect": 0.28024193548387094,
+        "keyColor": [
+          188,
+          68,
+          156
+        ]
+      },
+      {
+        "id": "ridge1b",
+        "layer": "near",
+        "index": 1,
+        "file": "ridge1b.jpg",
+        "cell": [
+          1,
+          0
+        ],
+        "contentPx": {
+          "x": 520,
+          "y": 186,
+          "w": 496,
+          "h": 139
+        },
+        "uv": {
+          "x": 0.25390625,
+          "y": 0.365234375,
+          "w": 0.2421875,
+          "h": 0.271484375
+        },
+        "aspect": 0.28024193548387094,
+        "keyColor": [
+          179,
+          76,
+          133
+        ]
+      },
+      {
+        "id": "ridge2a",
+        "layer": "far",
+        "index": 2,
+        "file": "ridge2a.jpg",
+        "cell": [
+          2,
+          0
+        ],
+        "contentPx": {
+          "x": 1032,
+          "y": 209,
+          "w": 496,
+          "h": 93
+        },
+        "uv": {
+          "x": 0.50390625,
+          "y": 0.41015625,
+          "w": 0.2421875,
+          "h": 0.181640625
+        },
+        "aspect": 0.1875,
+        "keyColor": [
+          181,
+          82,
+          147
+        ]
+      },
+      {
+        "id": "ridge2b",
+        "layer": "far",
+        "index": 3,
+        "file": "ridge2b.jpg",
+        "cell": [
+          3,
+          0
+        ],
+        "contentPx": {
+          "x": 1544,
+          "y": 199,
+          "w": 496,
+          "h": 113
+        },
+        "uv": {
+          "x": 0.75390625,
+          "y": 0.390625,
+          "w": 0.2421875,
+          "h": 0.220703125
+        },
+        "aspect": 0.22782258064516128,
+        "keyColor": [
+          180,
+          69,
+          116
+        ]
+      }
+    ]
+  },
+  "prompts": {
+    "base_image_gen": "An overhead seamless field of dry golden-hour earth painted in Japanese cel-animation background gouache. Broad anonymous blotches of baked umber, dusty clay, and muted ochre sit as flat painted color masses with even top-down lighting and no cast shadows. The pattern continues off every edge as if the canvas were cropped from a larger painting. No roads, rivers, trees, rocks, houses, flowers, or any landmark you could point at twice. Hand-painted matte, not photoreal, not green grassland.",
+    "detail_image_gen": "An overhead seamless wash of dry earth painted in Japanese cel-animation background gouache. Soft overlapping stains of umber, clay, and taupe as flat color masses, even lighting, no pebbles, no stones, no dots, no cobbles. The pattern continues off every edge. Anonymous texture only, hand-painted matte, not photoreal, not green.",
+    "ridge1a_image_gen": "A single wide mountain ridge silhouette painted in Japanese cel-animation background gouache, side view, sitting alone on a perfectly flat pure magenta chroma-key field. Dark earth-brown mass with an uneven hand-painted ridgeline of gentle rises and dips, no trees, no snow, no buildings, no outlines. Isolated on solid magenta, no sky gradient, no ground in front, no landscape behind.",
+    "ridge1b_image_gen": "A single wide earth ridge silhouette painted in Japanese cel-animation background gouache, side view on a perfectly flat pure magenta field. Dark brown mass, three uneven rounded peaks of different heights, no sharp alpine spike, no hole in the mass, no trees, no snow, no buildings, no outlines. Isolated on solid magenta, no sky, no ground in front.",
+    "ridge2a_image_gen": "A single wide distant hill range silhouette, smoother and lower than a mountain, painted in Japanese cel-animation background gouache, side view on a perfectly flat pure magenta chroma-key field. Softer rolling profile, fewer peaks, muted dark brown-grey mass. Isolated on solid magenta, no sky, no trees, no buildings, no outlines, no ground plane.",
+    "ridge2b_image_gen": "A single wide low distant hill silhouette, very smooth and simple, painted in Japanese cel-animation background gouache, side view on a perfectly flat pure magenta field. One long gentle swell and a smaller shoulder, muted dark grey-brown. Isolated on solid magenta, no sky, no trees, no buildings, no outlines.",
+    "notes": "image_gen produced JPEG with no alpha. Tiles are converted to luminance structure; hue is discarded (contract 7). Ridges sit on a magenta key field and are keyed like tools/cloud-atlas-build.mjs. Tiling is a 50% offset-heal of the centre cross (no mirror). A first base (4.jpg, large mauve kidney) tiled as a motif and was discarded. A first detail attempt that read as pebbles was discarded (2.jpg / 8.jpg)."
+  },
+  "notes": [
+    "Runtime files live in assets/ground/ (vite publicDir) and are served at /ground/*.",
+    "Lossless masters live in art/ground/ — outside publicDir on purpose.",
+    "UVs are Three.Texture flipY=true (y=0 at image bottom).",
+    "GROUND1 2026-08-18: R=luma structure, G=phase-shifted luma, B=highpass roughness.",
+    "Seamless via 4-quadrant cosine offset-blend; pack is wrap-safe."
+  ]
+}

@@ -1,0 +1,430 @@
+{
+  "version": 1,
+  "generated": "2026-08-13",
+  "contract": "DIAG-BG painted cumulus atlas + cotton soften",
+  "atlas": {
+    "webp": "atlas.webp",
+    "png": "../../art/clouds/atlas.png",
+    "width": 2048,
+    "height": 1024,
+    "grid": {
+      "cols": 4,
+      "rows": 2,
+      "cell": 512
+    },
+    "flipY": true,
+    "bytes": {
+      "png": 1238811,
+      "webp": 145712
+    },
+    "sha256_16": "3cb242fc3635386d"
+  },
+  "budgetBytes": 4194304,
+  "tiles": [
+    {
+      "id": "canonical",
+      "role": "side",
+      "index": 0,
+      "file": "canonical.jpg",
+      "cell": [
+        0,
+        0
+      ],
+      "contentPx": {
+        "x": 6,
+        "y": 103,
+        "w": 500,
+        "h": 305
+      },
+      "uv": {
+        "x": 0.0029296875,
+        "y": 0.6015625,
+        "w": 0.244140625,
+        "h": 0.2978515625
+      },
+      "aspect": 0.61,
+      "keyColor": [
+        182,
+        74,
+        126
+      ],
+      "histogramBefore": {
+        "lit": 4049,
+        "body": 125772,
+        "under": 31239,
+        "rim": 40207,
+        "ink": 0,
+        "other": 23558,
+        "opaque": 224825
+      },
+      "histogramAfter": {
+        "lit": 2338,
+        "body": 51611,
+        "under": 13240,
+        "rim": 16889,
+        "ink": 0,
+        "other": 5416,
+        "opaque": 89494
+      },
+      "soften": {
+        "stamped": 13,
+        "falloffFrac": 0.08,
+        "underRadius": 10,
+        "streakCols": 262
+      }
+    },
+    {
+      "id": "wide",
+      "role": "side",
+      "index": 1,
+      "file": "wide.jpg",
+      "cell": [
+        1,
+        0
+      ],
+      "contentPx": {
+        "x": 518,
+        "y": 164,
+        "w": 500,
+        "h": 183
+      },
+      "uv": {
+        "x": 0.2529296875,
+        "y": 0.6611328125,
+        "w": 0.244140625,
+        "h": 0.1787109375
+      },
+      "aspect": 0.366,
+      "keyColor": [
+        178,
+        74,
+        125
+      ],
+      "histogramBefore": {
+        "lit": 5497,
+        "body": 127282,
+        "under": 32198,
+        "rim": 34831,
+        "ink": 0,
+        "other": 14494,
+        "opaque": 214302
+      },
+      "histogramAfter": {
+        "lit": 1589,
+        "body": 27203,
+        "under": 7324,
+        "rim": 7935,
+        "ink": 0,
+        "other": 2578,
+        "opaque": 46629
+      },
+      "soften": {
+        "stamped": 13,
+        "falloffFrac": 0.08,
+        "underRadius": 6,
+        "streakCols": 358
+      }
+    },
+    {
+      "id": "tall",
+      "role": "side",
+      "index": 2,
+      "file": "tall.jpg",
+      "cell": [
+        2,
+        0
+      ],
+      "contentPx": {
+        "x": 1030,
+        "y": 70,
+        "w": 500,
+        "h": 372
+      },
+      "uv": {
+        "x": 0.5029296875,
+        "y": 0.568359375,
+        "w": 0.244140625,
+        "h": 0.36328125
+      },
+      "aspect": 0.744,
+      "keyColor": [
+        178,
+        72,
+        121
+      ],
+      "histogramBefore": {
+        "lit": 8840,
+        "body": 78539,
+        "under": 88073,
+        "rim": 66025,
+        "ink": 0,
+        "other": 13967,
+        "opaque": 255444
+      },
+      "histogramAfter": {
+        "lit": 6092,
+        "body": 32120,
+        "under": 27091,
+        "rim": 30170,
+        "ink": 0,
+        "other": 5685,
+        "opaque": 101158
+      },
+      "soften": {
+        "stamped": 13,
+        "falloffFrac": 0.08,
+        "underRadius": 14,
+        "streakCols": 477
+      }
+    },
+    {
+      "id": "cluster",
+      "role": "side",
+      "index": 3,
+      "file": "cluster.jpg",
+      "cell": [
+        3,
+        0
+      ],
+      "contentPx": {
+        "x": 1542,
+        "y": 113,
+        "w": 500,
+        "h": 285
+      },
+      "uv": {
+        "x": 0.7529296875,
+        "y": 0.611328125,
+        "w": 0.244140625,
+        "h": 0.2783203125
+      },
+      "aspect": 0.57,
+      "keyColor": [
+        172,
+        73,
+        120
+      ],
+      "histogramBefore": {
+        "lit": 5157,
+        "body": 132183,
+        "under": 59861,
+        "rim": 36850,
+        "ink": 0,
+        "other": 21767,
+        "opaque": 255818
+      },
+      "histogramAfter": {
+        "lit": 1468,
+        "body": 45049,
+        "under": 13264,
+        "rim": 15755,
+        "ink": 0,
+        "other": 7459,
+        "opaque": 82995
+      },
+      "soften": {
+        "stamped": 13,
+        "falloffFrac": 0.08,
+        "underRadius": 11,
+        "streakCols": 447
+      }
+    },
+    {
+      "id": "small",
+      "role": "side",
+      "index": 4,
+      "file": "small.jpg",
+      "cell": [
+        0,
+        1
+      ],
+      "contentPx": {
+        "x": 21,
+        "y": 627,
+        "w": 470,
+        "h": 281
+      },
+      "uv": {
+        "x": 0.01025390625,
+        "y": 0.11328125,
+        "w": 0.2294921875,
+        "h": 0.2744140625
+      },
+      "aspect": 0.597872340425532,
+      "keyColor": [
+        176,
+        72,
+        127
+      ],
+      "histogramBefore": {
+        "lit": 1260,
+        "body": 37834,
+        "under": 12316,
+        "rim": 10196,
+        "ink": 0,
+        "other": 2013,
+        "opaque": 63619
+      },
+      "histogramAfter": {
+        "lit": 1640,
+        "body": 41122,
+        "under": 12910,
+        "rim": 11943,
+        "ink": 0,
+        "other": 2001,
+        "opaque": 69616
+      },
+      "soften": {
+        "stamped": 13,
+        "falloffFrac": 0.08,
+        "underRadius": 9,
+        "streakCols": 320
+      }
+    },
+    {
+      "id": "backlit",
+      "role": "back",
+      "index": 5,
+      "file": "backlit.jpg",
+      "cell": [
+        1,
+        1
+      ],
+      "contentPx": {
+        "x": 518,
+        "y": 626,
+        "w": 500,
+        "h": 283
+      },
+      "uv": {
+        "x": 0.2529296875,
+        "y": 0.1123046875,
+        "w": 0.244140625,
+        "h": 0.2763671875
+      },
+      "aspect": 0.566,
+      "keyColor": [
+        164,
+        68,
+        115
+      ],
+      "histogramBefore": {
+        "lit": 0,
+        "body": 101645,
+        "under": 120694,
+        "rim": 0,
+        "ink": 0,
+        "other": 15281,
+        "opaque": 237620
+      },
+      "histogramAfter": {
+        "lit": 0,
+        "body": 42020,
+        "under": 34966,
+        "rim": 0,
+        "ink": 0,
+        "other": 826,
+        "opaque": 77812
+      },
+      "soften": {
+        "stamped": 13,
+        "falloffFrac": 0.08,
+        "underRadius": 11,
+        "streakCols": 482
+      }
+    },
+    {
+      "id": "wide-backlit",
+      "role": "back",
+      "index": 6,
+      "file": "wide-backlit.jpg",
+      "cell": [
+        2,
+        1
+      ],
+      "contentPx": {
+        "x": 1030,
+        "y": 646,
+        "w": 500,
+        "h": 244
+      },
+      "uv": {
+        "x": 0.5029296875,
+        "y": 0.130859375,
+        "w": 0.244140625,
+        "h": 0.23828125
+      },
+      "aspect": 0.488,
+      "keyColor": [
+        174,
+        71,
+        120
+      ],
+      "histogramBefore": {
+        "lit": 419,
+        "body": 222977,
+        "under": 93769,
+        "rim": 5322,
+        "ink": 0,
+        "other": 7587,
+        "opaque": 330074
+      },
+      "histogramAfter": {
+        "lit": 65,
+        "body": 42773,
+        "under": 15698,
+        "rim": 957,
+        "ink": 0,
+        "other": 2554,
+        "opaque": 62047
+      },
+      "soften": {
+        "stamped": 13,
+        "falloffFrac": 0.08,
+        "underRadius": 8,
+        "streakCols": 63
+      }
+    }
+  ],
+  "prompts": {
+    "canonical_image_gen": "A single isolated cumulus cloud painted in Japanese cel anime background style, golden hour light from low on the right, three discrete flat tones (warm gold lit face, muted teal body, deep navy underbelly), no outlines, hand-painted gouache texture. The cloud sits alone on a perfectly flat pure magenta chroma-key field, no sky gradient, no horizon, no ground, no landscape, no characters. Sunlight comes from the lower right so the gold face and a thin bright gold rim occupy only the right flank, never the top. The silhouette is one large cauliflower mass with five puffy lobes and tiny nubs only along the sunlit upper-right edge, wobbly hand-painted rim.",
+    "edits": {
+      "wide": "Keep the same Japanese cel gouache paint, the same flat magenta field, and the same lower-right golden-hour lighting. Only reshape the cloud into a wider, flatter cumulus deck — a long low mass with four or five puffs along the top and a navy underbelly. Gold stays on the right flank only. No outlines, no sky, no ground.",
+      "tall": "Keep the same Japanese cel gouache paint, the same flat magenta field, and the same lower-right golden-hour lighting. Only reshape the cloud into a taller stacked cauliflower heap, more vertical, with extra small nubs along the sunlit upper-right edge. Gold on the right flank only, navy underbelly. No outlines, no sky, no ground.",
+      "cluster": "Keep the same Japanese cel gouache paint, the same flat magenta field, and the same lower-right golden-hour lighting. Only loosen the silhouette into a cluster of six distinct puffs that still read as one mass, with tiny gold nubs on the right. Gold on the right flank only, teal body, navy underbelly. No outlines, no sky, no ground.",
+      "backlit": "Keep the same Japanese cel gouache paint and the same flat magenta field. Turn the lighting around so this is a backlit cloud: the camera-facing body is muted teal and deep navy, and gold remains only as a thin rim along the right silhouette, never a big gold face toward the camera. Same cauliflower lobes, no outlines, no sky, no ground.",
+      "wide-backlit": "Keep the same Japanese cel gouache paint and the same flat magenta field. Make a wider flatter backlit deck: the face toward us is teal and navy, gold only a thin rim on the right edge. No big gold face, no outlines, no sky, no ground.",
+      "small": "Keep the same Japanese cel gouache paint, the same flat magenta field, and the same lower-right golden-hour lighting. Shrink it into a smaller simpler distant mass with only three or four lobes, still gold on the right, teal body, navy underbelly. No outlines, no sky, no ground."
+    },
+    "notes": "image_gen produced JPEG with no alpha. Background is a flat dusty rose  (measured ~RGB 182,74,126 / H330 S0.6 V0.7), not #FF00FF — still keyable,  does not overlap gold/teal/navy. Keyer flood-fills from the frame edge. Variants were derived with image_edit from the canonical, not fresh image_gen."
+  },
+  "familyCenters": {
+    "lit": {
+      "h": 45,
+      "s": 0.23,
+      "v": 0.67
+    },
+    "body": {
+      "h": 182,
+      "s": 0.33,
+      "v": 0.38
+    },
+    "under": {
+      "h": 220,
+      "s": 0.27,
+      "v": 0.22
+    },
+    "rim": {
+      "h": 42,
+      "s": 0.45,
+      "v": 0.75
+    }
+  },
+  "notes": [
+    "Static files live in assets/ (vite publicDir) and are served at /clouds/*.",
+    "UVs are Three.Texture flipY=true (y=0 at image bottom).",
+    "Painted sun is on +U (right) of every tile; the shader flips U so +U faces the sun.",
+    "role=side tiles show a gold lit face; role=back tiles show teal/navy with a thin gold rim.",
+    "2026-08-13 cottonize: SDF alpha feather + self-stamp fragments + underside wash. Same 4-family paint."
+  ]
+}

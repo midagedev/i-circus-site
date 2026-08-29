@@ -1,0 +1,15 @@
+Sample VRM used by the MToon×WebGPU smoke test
+==============================================
+
+File: assets/sample.vrm
+Source: https://github.com/pixiv/three-vrm
+        packages/three-vrm/examples/models/VRM1_Constraint_Twist_Sample.vrm
+        (branch: dev, fetched 2026-08-12)
+
+The @pixiv/three-vrm repository is MIT-licensed (Copyright (c) 2019-2026 pixiv Inc.).
+This sample model is distributed with that repository's examples. Keep the MIT
+notice when redistributing. For production characters, replace with an original
+VRM (VRoid Studio) — do not ship third-party avatars as project IP.
+
+Library: @pixiv/three-vrm 3.5.5 — MIT
+See: node_modules/@pixiv/three-vrm/LICENSE
